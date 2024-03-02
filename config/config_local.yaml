@@ -1,0 +1,18 @@
+# docker config
+db_config:
+  host: db
+  port: 5430
+  username: postgres
+  password: 1234
+  db_name: postgres
+  schema: mq
+
+
+# local development config
+#db_config:
+#  host: localhost
+#  port: 5432
+#  username: postgres
+#  password: 1234
+#  db_name: postgres
+#  schema: mq
